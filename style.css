@@ -31,6 +31,7 @@ body, html {
   }
 
   #links {
+    max-width: fit-content;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -38,10 +39,41 @@ body, html {
     text-decoration: none;
     margin-bottom: 5rem;
   }
+  
+  #links a {
+    position: relative;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #a0a0a0;
+    letter-spacing: 1px;
+  }
+
+  #links a::after {
+    content: "";
+    position: absolute;
+    background-color: #FF2661;
+    height: 3px;
+    width: 0%;
+    left: 0;
+    bottom: -5px;
+    transition: all 0.3s;
+    visibility: hidden;
+    
+  }
+
+  #links a:hover:after {
+    visibility: visible;
+    width: 100%;
+  }
+
+  #links a:hover{
+    color: #FF2661;
+  }
 
   #social-media {
     display: flex;
-    gap: 2rem;
+    gap: 1rem;
   }
 
   #social-media img {
