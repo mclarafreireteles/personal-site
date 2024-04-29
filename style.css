@@ -17,13 +17,12 @@ body, html {
     height: 100%; /* Altura total da página */
     flex-direction: column;
     align-items: left;
-    background-color: rgb(163, 163, 163);
-    padding: 2rem 0 0 6rem;
+    background-color: rgb(255, 255, 255);
+    padding: 4rem 0 0 10rem;
   }
 
-  #left-container h1 {
-    font-size: 4rem;
-    margin-bottom: -20px;
+  #left-container img {
+    max-width: 70vh;
   }
 
   #left-container h2 {
@@ -52,6 +51,7 @@ body, html {
   }
 
   #about-me {
-    padding: 3rem 2rem 2rem 3rem;
-    background-color: red;
+    padding: 4rem 10rem 2rem 3rem;
+    background-color: rgb(255, 255, 255);
+    line-height: 1.5; /* Define o espaçamento entre as linhas */
   }
