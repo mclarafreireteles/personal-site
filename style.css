@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    background-color: #f5f3f0;
+}
 
 body, html {
     margin: 0;
@@ -6,6 +11,7 @@ body, html {
     height: 100%;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
+
   }
   
   #left-container {
@@ -17,8 +23,8 @@ body, html {
     height: 100%; /* Altura total da página */
     flex-direction: column;
     align-items: left;
-    background-color: rgb(255, 255, 255);
     padding: 4rem 0 0 10rem;
+    
   }
 
   #left-container img {
@@ -28,6 +34,13 @@ body, html {
   #left-container h2 {
     font-size: 25px;
     margin-bottom: 20px;
+    font-family: 'Urbanist', sans-serif;
+  }
+
+  #left-container p {
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
   }
 
   #links {
@@ -38,13 +51,14 @@ body, html {
     margin-top: 2rem;
     text-decoration: none;
     margin-bottom: 5rem;
+    font-family: 'Urbanist', sans-serif;
   }
   
   #links a {
     position: relative;
     text-decoration: none;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 16px;
     color: #a0a0a0;
     letter-spacing: 1px;
   }
@@ -88,12 +102,10 @@ body, html {
     margin-left: 50%; /* Metade da largura da página */
     max-width: 50%; /* Metade da largura da página */
     height: 100%; /* Altura total da página */
-    background-color: #fff; /* Cor de fundo da metade rolável */
     overflow-y: auto; /* Adiciona rolagem vertical se o conteúdo for maior que a altura */
   }
 
   #about-me {
     padding: 4rem 10rem 2rem 3rem;
-    background-color: rgb(255, 255, 255);
     line-height: 1.5; /* Define o espaçamento entre as linhas */
   }
