@@ -110,68 +110,9 @@ body, html {
     line-height: 1.5; /* Define o espaçamento entre as linhas */
   }
 
-  .experience-card {
-    display: flex;
-    margin: 0 10rem 2rem 3rem;
-    padding: 1rem;
-    border-radius: 25px;
-    transition: background-color 0.3s ease;
-
-  }
-
-  .experience-card:hover{
-    background-color: #FFD4E0;
-  }
-
-  
-  .experience-card:hover .experience-card-left #experience-duration   {
-    background-color: #FFD4E0; /* Altere a cor de fundo das divs internas conforme necessário */
-  }
-  
- .experience-card-left #experience-duration {
-    transition: background-color 0.3s ease;
-  }
-
-  .experience-card-left, #experience-duration {
-    display: flex;
-    margin: 0;
-    padding: 0 0.5rem 0 0;
-    text-wrap: nowrap;
-    color: #FF618C;
-  }
-  
-
-  .experience-card-right,  .experience-card-right h3,  .experience-card-right p, .experience-card-right h4 {
+  .experience {
     display: flex;
     flex-direction: column;
-    gap: 0;
-    margin: 0;
+    gap: 2rem;
+    margin: 4rem 10rem 2rem 3rem;
   }
-
-  .experience-card h3 {
-    color: #FF2661;
-  }
-
-  .experience-card p {
-    color: #340F19;
-    font-size: 14px;
-  }
-
-  .experience-card-right {
-    padding-left: 1rem;
-    gap: 1rem;
-  }
-
-  .experience-tags {
-    display: flex;
-    gap: 1rem;
-  }
-
-  .experience-tags h4 {
-    background-color: #FFEDF2;
-    color: #FF2661;
-    padding: 0.2rem 0.5rem;
-    font-size: 14px;
-    border-radius: 25px;
-  }
-
