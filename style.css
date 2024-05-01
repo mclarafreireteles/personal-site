@@ -110,9 +110,56 @@ body, html {
     line-height: 1.5; /* Define o espaçamento entre as linhas */
   }
 
-  .experience {
+  .card {
+    transition: all 0.3s ease-in;
+    text-decoration: none;
+  }
+
+  .card-container:hover {
+    box-shadow: rgba(240, 145, 210, 0.55) 0px 10px 50px;
+  }
+
+  .card:hover, .card:hover .card-content, .card:hover .card-tags{
+    background-color: #FFEDF2;
+  }
+
+  .card-container {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
     margin: 4rem 10rem 2rem 3rem;
+    padding: 1rem 2rem;
+    border-radius: 25px;
+    gap: 1rem;
+  }
+
+  .card-content {
+    margin: 0;
+    padding: 0;
+  }
+
+  .card-tags {
+    display: flex;
+    gap: 0.5rem;
+
+  }
+
+  #card-duration {
+    color: #FF618C;
+    font-size: 14px;
+  }
+
+  #card-title {
+    color: #FF2661;
+  }
+
+  .card .tag {
+    padding: 0.2rem 0.5rem;
+    background-color: #FF2661 !important;
+    color: white;
+    border-radius: 25px;
+    font-size: 14px ;
+  }
+
+  .card .description {
+    color: black;
   }
