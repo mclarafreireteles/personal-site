@@ -169,18 +169,57 @@ body, html {
     display: flex;
     flex-direction: column;
     gap: 3rem;
-    margin: 4rem 10rem 2rem 3rem;
+    margin: 8rem 10rem 2rem 3rem;
   }
 
   .project-card {
+    position: relative;
     display: flex;
     background-color: #FFEDF2;
     box-shadow: rgba(240, 145, 210, 0.55) 0px 2px 8px 0px;
     padding: 1rem 1rem;
     border-radius: 25px;
+    background-color: #FFEDF2;
   }
 
   .project-card img {
     max-width: 25vh;
-    border-radius: 25px 0 0 25px;
+    border-radius: 25px;
+    
   }
+
+  .project-card button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+    max-width: 12vh;
+    margin: 1rem;
+    border-radius: 25px;
+    padding: 0.2rem 0.5rem;
+    font-size: 16px;
+    text-wrap: nowrap;
+    font-family: 'Inter', sans-serif;
+
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-top: 0;
+    background-color: #FFEDF2;
+}
+
+.text h3 {
+    color: #FF2661;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #FFEDF2;
+
+}
+
+.text p {
+    background-color: #FFEDF2;
+}
