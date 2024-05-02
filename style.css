@@ -163,3 +163,24 @@ body, html {
   .card .description {
     color: black;
   }
+
+
+  .projects{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 4rem 10rem 2rem 3rem;
+  }
+
+  .project-card {
+    display: flex;
+    background-color: #FFEDF2;
+    box-shadow: rgba(240, 145, 210, 0.55) 0px 2px 8px 0px;
+    padding: 1rem 1rem;
+    border-radius: 25px;
+  }
+
+  .project-card img {
+    max-width: 25vh;
+    border-radius: 25px 0 0 25px;
+  }
