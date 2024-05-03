@@ -177,7 +177,7 @@ body, html {
     flex-direction: column;
     background-color: #FFEDF2;
     box-shadow: rgba(240, 145, 210, 0.55) 0px 2px 8px 0px;
-    padding: 1rem;
+    padding: 2rem;
     border-radius: 25px;
     background-color: #FFEDF2;
   }
@@ -190,14 +190,13 @@ body, html {
   .text {
     display: flex;
     flex-direction: column;
-    margin-left: 1rem;
     margin-top: 0;
     background-color: #FFEDF2;
 }
 
 .text h3 {
     color: #FF2661;
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 0;
     margin-bottom: 0;
     background-color: #FFEDF2;
@@ -206,10 +205,31 @@ body, html {
 
 .text p {
     background-color: #FFEDF2;
-    font-size: 14px;
+    font-size: 16px;
+    color: black;
 }
 
 .text p strong {
   background-color: #FFEDF2;
-  font-size: 14px;
+  font-size: 16px;
+}
+
+.links-projeto {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  background-color: #FFEDF2 ;
+}
+
+.links-projeto a {
+  text-decoration: none;
+  background-color: #FFEDF2;
+  color: #FF2661;
+  font-weight: 700;
+}
+.links-projeto img {
+  background: #FFEDF2;
+  color: #FF2661;
+
 }
