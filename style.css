@@ -27,16 +27,24 @@ body, html {
     height: 100%; /* Altura total da página */
     flex-direction: column;
     align-items: left;
-    padding: 4rem 0 0 10rem;
+    padding: 0 0 0 10rem;
     
   }
 
-  #left-container img {
-    max-width: 70vh;
+  #left-container h1 {
+    font-size: 75px;
+    background-image: linear-gradient(to left bottom, #ff2661, #ff2f50, #ff3b3d, #ff4927, #ff5802);
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* Define a cor da fonte como transparente para que o degradê seja visível */
+    color: transparent;
+    margin-bottom: 1rem;
   }
+  
 
   #left-container h2 {
     font-size: 25px;
+    margin-top: 0;
     margin-bottom: 20px;
     font-family: 'Urbanist', sans-serif;
   }
