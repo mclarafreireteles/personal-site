@@ -397,6 +397,9 @@ body, html {
   }
 
   #links a {
+    color: #FF2661;
+    font-weight: 800;
+    font-size: 15px;
   }
 
   #social-media {
