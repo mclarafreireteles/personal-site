@@ -252,7 +252,7 @@ body, html {
   }
 }
 
-@media screen and (max-width: 1170px){
+@media screen and (max-width: 1024px){
   #left-container h1 {
     margin-top: 3.5rem;
     font-size: 45px;
@@ -270,13 +270,13 @@ body, html {
   }
 }
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 840px){
   #left-container {
     position: static;
     display: flex;
     top: 0;
     left: 0;
-    width: 100vh; /* Metade da largura da página */
+    width: fit-content; /* Metade da largura da página */
     height: fit-content; /* Altura total da página */
     flex-direction: column;
     align-items: left;
@@ -375,3 +375,40 @@ body, html {
 
 
 }
+
+@media screen and (max-width: 450px){
+
+  #left-container {
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+  }
+
+  #left-container h1 {
+    margin-top: 3.5rem;
+    font-size: 45px;
+    margin-right: 0;
+    padding: 0;
+  }
+  #left-container p {
+    font-size: 14px;
+  }
+
+  #links a {
+  }
+
+  #social-media {
+    gap: 3rem;
+  }
+
+  #social-media img {
+    max-width: 6vh;
+  }
+
+  .project-card {
+    padding: 1rem;
+  }
+}
+
